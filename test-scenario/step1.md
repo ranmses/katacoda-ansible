@@ -12,7 +12,7 @@ Este scenario, por exemplo, é uma tradução livre do conteúdo no diretório `
 
 Agora clone o repositório do presente scenario:
 
-`git clone https://github.com/ranmses/katacoda-ansible.git katacoda-scenario-examples`{{execute}}
+`git clone https://github.com/ranmses/katacoda-ansible.git test-scenario`{{execute}}
 
 An example of the current step is `test-scenario/step1.md`{{open}}
 
