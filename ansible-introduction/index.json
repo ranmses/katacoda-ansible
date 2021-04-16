@@ -33,22 +33,6 @@
           {
             "file": "ansible.cfg",
             "target": "/root"
-          },
-          {
-            "file": "hosts",
-            "target": "/root"
-          },
-          {
-            "file": "playbook.yml",
-            "target": "/root"
-          },
-          {
-            "file": "hostname.yml",
-            "target": "/root"
-          },
-          {
-            "file": "config",
-            "target": "/root/.ssh"
           }
         ]
     },
@@ -61,8 +45,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "terminals": [{"name": "control", "target":"host01"}]
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "centos7"
