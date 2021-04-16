@@ -54,7 +54,7 @@
     },
     "intro": {
       "text": "intro.md",
-      "credits": "__Author:__ Sean Cavanaugh, Ansible Contributor (Red Hat)",
+      "credits": "__Author:__ Ranmsés E. Martins Bastos e Kleber Tadeu Santana (Petrobras)",
       "courseData": "background.sh",
       "code": "foreground.sh"
     },
@@ -67,6 +67,6 @@
     "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}]
   },
   "backend": {
-    "imageid": "centos7"
+    "imageid": "centos7-cluster3"
   }
 }
