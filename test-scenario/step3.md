@@ -1,16 +1,16 @@
-To help create the index.json and scenario structure, Katacoda has developed a command line interactive (CLI).
+Para ajudar na criação do arquivo index.json e estrutura do scenario, existe o Katacoda command line interactive (CLI).
 
 ## Install CLI
 
-Install the CLI with the command `npm i katacoda-cli --global`{{execute}}.
+Instale a CLI com o comando `npm i katacoda-cli --global`{{execute}}.
 
-The commands follow the syntax is
+A CLI segue a sintaxe a seguir
 `$ katacoda COMMAND`
 
-After the install has finished, the command can be run via `katacoda --help`{{execute}}.
+Após a conclusão da instalação, opções do comando podem ser obtidas via `katacoda --help`{{execute}}.
 
 ## Create scenario
-For example, to create a new scenario you would run the command `katacoda scenarios:create`{{execute}}. The CLI will prompt you a few questions in order to create your scenario:
+Para criar um novo scenario o comando seria `katacoda scenarios:create`{{execute}}. A CLI irá exibir uma série de perguntas para montar dinamicamente o arquivo JSON:
 - **Friendly URL:** here you will type `test-scenario`. This attribute will determine the name of the folder of your scenario, and the URL to access it, so, should not contain spaces, should be lower case, etc. For example, if your username is *test-username* and your scenario was called *test-scenario* as suggested, the URL to point the scenario in the platform will be https://katacoda.com/test-username/scenarios/test-scenario/
 - **Title:** title the scenario
 - **Description:** description of the scenario, displayed on the intro screen
@@ -20,7 +20,9 @@ For example, to create a new scenario you would run the command `katacoda scenar
 - **Image:** it will determine which base software will be available for your scenario. For example, if you need docker, java, go, etc as a pre-requisite. For more information read [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments)
 - **Layout:** it will determine the disposition of the elements of your scenario. For example, if you want to present only a terminal, or editor + terminal, etc. For more information read [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts)
 
-With this information, the CLI will create a folder with the name of the ***friendly URL*** introduced and will create inside of that folder the required files for your scenario.
+Com essa informação, a CLI irá criar um diretório com o nome de ***friendly URL*** introduzido e irá criar os devidos arquivos dentro dele.
 
-You can check your scenario created with this command:
+Você pode verificar o scenario criado com este comando:
 `ls test-scenario*`{{execute}}
+
+Também é possível apenas copiar arquivos de um scenario pré-existente, sem a necessidade da CLI.

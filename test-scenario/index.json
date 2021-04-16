@@ -1,14 +1,14 @@
 {
-  "title": "Creating Your First Katacoda Scenario",
-  "description": "Learn how to create your first Katacoda scenario",
+  "title": "Criando Seu Primeiro Scenario Katacoda",
+  "description": "Aprenda como criar seu primeiro scenario Katacoda",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Scenario Structure",
+        "title": "Step 1 - Estrutura",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Scenario Syntax",
+        "title": "Step 2 - Sintaxe",
         "text": "step2.md"
       },
       {
@@ -16,7 +16,7 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - VS Code Extension",
+        "title": "Step 4 - Extensão VS Code",
         "text": "step4.md"
       },
       {

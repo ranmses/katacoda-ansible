@@ -1,5 +1,5 @@
-As changes are being made to the content, when they are pushed into the master branch of a Git repository, the content on Katacoda can automatically be updated via a webhook.
+Conforme as mudanças estão sendo feitas no conteúdo, quando elas são enviadas para o branch master de um repositório Git, o conteúdo do Katacoda pode ser atualizado automaticamente por meio de um webhook.
 
-To configure the Webhook, follow the guide at [katacoda.com/docs/configure-git](https://katacoda.com/docs/configure-git).
+Para configurar o Webhook, siga o guia em [katacoda.com/docs/configure-git](https://katacoda.com/docs/configure-git).
 
-Once the webhook is installed, everytime you make a push to update to your content, Katacoda will be automatically updated.
+Assim que o webhook for instalado, toda vez que você fizer um push para atualizar o seu conteúdo, o Katacoda será atualizado automaticamente.

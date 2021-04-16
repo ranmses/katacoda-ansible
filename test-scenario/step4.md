@@ -1,5 +1,5 @@
-For those who prefer an IDE based extension, Katacoda has extended Visual Studio Code for scenario management.
+Para aqueles que preferem uma extensão baseada em IDE, existe uma extensão Katacoda do Visual Studio Code para gerenciamento de cenário.
 
-This can be installed from the [Katacoda page on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items/Katacoda.vscode/).
+Isso pode ser instalado a partir da [página Katacoda no Visual Studio Marketplace] (https://marketplace.visualstudio.com/items/Katacoda.vscode/).
 
-After installation, you can create new scenarios, add steps and have quick access to the Katacoda markdown features via snippets.
+Após a instalação, você pode criar novos cenários, adicionar etapas e ter acesso rápido aos recursos de marcação Katacoda por meio de snippets.

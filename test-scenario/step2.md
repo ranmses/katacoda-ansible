@@ -1,9 +1,9 @@
-Within each step, a series of Markdown extensions have been created that can provide various details for the users' experience.
+Em cada etapa, uma série de extensões Markdown foram criadas e podem fornecer vários detalhes para a experiência do usuário.
 
-For example, commands such as `echo "Run in Terminal"`{{execute}}
- can be executed by clicking the command.
+Por exemplo, comandos como `echo "Run in Terminal"`{{execute}}
+ podem ser executados clicando no próprio comando.
 
-This is done by adding `execute` to the markdown code block, for example:
+Isto é feito adicionando `execute` ao bloco de código markdown, por exemplo:
 <pre>`echo "Run in Terminal"`{{execute}}</pre>
 
-More can be found at the scenario [on Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).
+Mais pode ser encontrado no scenario [on Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).

@@ -1,17 +1,22 @@
-A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file to define how your scenario should be configured, the text for the scenario and any automation required.
+Um cenário Katacoda é uma série de arquivos Markdown, scripts bash e um arquivo JSON para definir como seu cenário deve ser configurado, o texto para o cenário e qualquer automação necessária.
 
 ## Task
 
-Clone our example repository that contains the set of documentation with the following command:
+Clone o repositório exemplo que contém a documentação com o comando a seguir:
 
 `git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
 
-Within the repository, you will see a set of examples of implementing various Katacoda functionality.
+Neste repositório você verá um conjunto de exemplos de implementação de várias funcionalidades do Katacoda.
 
-The scenario you are currently reading is in the directory `ls -lha katacoda-scenario-examples/create-scenario-101`{{execute}}. The directory name is what defines the URL.
+Este scenario, por exemplo, é uma tradução livre do conteúdo no diretório `ls -lha katacoda-scenario-examples/create-scenario-101`{{execute}}
 
-An example of the current step is `katacoda-scenario-examples/create-scenario-101/step1.md`{{open}}
+Agora clone o repositório do presente scenario:
 
-All the steps are collected via a JSON file, for example, `katacoda-scenario-examples/create-scenario-101/index.json`{{open}}.
+`git clone https://github.com/ranmses/katacoda-ansible.git katacoda-scenario-examples`{{execute}}
 
-The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) and environments at [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
+An example of the current step is `test-scenario/step1.md`{{open}}
+
+Todos os steps são configurados por um arquivo JSON, `test-scenario/index.json`{{open}}.
+
+O arquivo JSON define o título, a descrição, ordem dos steps, o layout da UI e o environment. Mais sobre layouts em [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) e environments em [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
+
