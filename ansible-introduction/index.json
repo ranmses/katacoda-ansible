@@ -33,38 +33,19 @@
           {
             "file": "ansible.cfg",
             "target": "/root"
-          },
-          {
-            "file": "hosts",
-            "target": "/root"
-          },
-          {
-            "file": "playbook.yml",
-            "target": "/root"
-          },
-          {
-            "file": "hostname.yml",
-            "target": "/root"
-          },
-          {
-            "file": "config",
-            "target": "/root/.ssh"
           }
         ]
     },
     "intro": {
       "text": "intro.md",
-      "credits": "__Author:__ Ranmsés E. Martins Bastos e Kleber Tadeu Santana (Petrobras)",
-      "courseData": "background.sh",
-      "code": "foreground.sh"
+      "credits": "__Author:__ Ranmsés E. Martins Bastos e Kleber Tadeu de Santana (Petrobras)"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}]
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "centos7"
