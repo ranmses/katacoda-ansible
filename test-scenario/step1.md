@@ -12,11 +12,11 @@ Este scenario, por exemplo, é uma tradução livre do conteúdo no diretório `
 
 Agora clone o repositório do presente scenario:
 
-`git clone https://github.com/ranmses/katacoda-ansible.git test-scenario`{{execute}}
+`git clone https://github.com/ranmses/katacoda-ansible.git`{{execute}}
 
-An example of the current step is `test-scenario/step1.md`{{open}}
+An example of the current step is `katacoda-ansible/test-scenario/step1.md`{{open}}
 
-Todos os steps são configurados por um arquivo JSON, `test-scenario/index.json`{{open}}.
+Todos os steps são configurados por um arquivo JSON, `katacoda-ansible/test-scenario/index.json`{{open}}.
 
 O arquivo JSON define o título, a descrição, ordem dos steps, o layout da UI e o environment. Mais sobre layouts em [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) e environments em [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
 
