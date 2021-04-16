@@ -1,5 +1,5 @@
 {
-  "title": "Ansible Intro - Clone Red Hat",
+  "title": "Ansible Introduction",
   "description": "Simple walkthrough of command-line Ansible and executing your first Ansible Playbook",
   "details": {
     "steps": [
@@ -67,7 +67,6 @@
     "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}]
   },
   "backend": {
-    //"imageid": "rhel8-cluster3"
-    "imageid": "TBC"
+    "imageid": "centos7"
   }
 }
