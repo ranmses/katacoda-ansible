@@ -1,5 +1,5 @@
 {
-  "title": "Ansible Introduction",
+  "title": "Ansible Intro - CentOS Cluster 2",
   "description": "Simple walkthrough of command-line Ansible and executing your first Ansible Playbook",
   "details": {
     "steps": [
