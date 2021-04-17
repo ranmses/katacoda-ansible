@@ -1,5 +1,5 @@
 {
-  "title": "Testando a image centos-cluster2",
+  "title": "Testando a image centos7",
   "description": "",
   "difficulty": "Beginner",
   "time": "10",
@@ -37,6 +37,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "centos-cluster2"
+    "imageid": "centos7"
   }
 }
