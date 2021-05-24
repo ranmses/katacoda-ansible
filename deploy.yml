@@ -1,0 +1,21 @@
+---
+- name: Deploy de Apache server
+  hosts: web
+  become: yes
+  tasks:
+  - name: Instalando a ultima versao do pacote
+    yum:
+      name: httpd
+      state: latest
+  - name: Habilitando/inicializando o servico
+    service:
+      name: httpd
+      state: started
+      enabled: true
+  - name: Criando regra de firewall
+    firewalld:
+      service: http
+      state: enabled
+      permanent: yes
+      immediate: yes
+...
